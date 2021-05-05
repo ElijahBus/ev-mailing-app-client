@@ -1,0 +1,36 @@
+@import "../../../tailwind.css";
+
+.clickable {
+    -webkit-app-region: no-drag
+}
+
+.draggable {
+    -webkit-app-region: drag
+}
+
+/* Scroll bar styling */
+
+/* width */
+::-webkit-scrollbar {
+    background-color: black;
+    width: 8px;
+    border: 1px solid gray;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: hsla(235, 21%, 11%, 0.322);
+    box-shadow: 0 0 3px hsl(235, 21%, 11%);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #6f6f6f;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 0%, 74%);
+}
