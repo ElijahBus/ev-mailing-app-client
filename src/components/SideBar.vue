@@ -22,16 +22,16 @@
 
       <div class="sidebar-routes_links ml-5 flex flex-col">
         <router-link to="/" class="text-white my-2">
-          <span class="mx-4">Inbox</span>
+          <span class="mx-4">All Mails</span>
         </router-link>
 
-        <router-link to="/" class="text-white my-2">
-          <span class="mx-4">Drafts</span>
-        </router-link>
+<!--        <router-link to="/" class="text-white my-2">-->
+<!--          <span class="mx-4">Drafts</span>-->
+<!--        </router-link>-->
 
-        <router-link to="/" class="text-white my-2">
-          <span class="mx-4">Sent</span>
-        </router-link>
+<!--        <router-link to="/" class="text-white my-2">-->
+<!--          <span class="mx-4">Sent</span>-->
+<!--        </router-link>-->
       </div>
 
 

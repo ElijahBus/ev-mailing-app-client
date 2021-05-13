@@ -6,20 +6,24 @@ import routes from "./routes";
 
 
 import 'tailwindcss/tailwind.css'
-import { library } from '@fortawesome/fontawesome-svg-core'
+import {library} from '@fortawesome/fontawesome-svg-core'
 import {
-  faUserSecret,
-  faUserCircle,
-  faPen,
-  faCog,
-  faEnvelope,
-  faEnvelopeOpen,
-  faInbox,
-  faFileAlt,
-  faFolder,
-  faStar
+    faUserSecret,
+    faUserCircle,
+    faPen,
+    faCog,
+    faEnvelope,
+    faEnvelopeOpen,
+    faInbox,
+    faFileAlt,
+    faFolder,
+    faStar,
+    faReply,
+    faEllipsisH,
+    faPaperPlane,
+    faShare
 } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
 
 library.add(
@@ -32,7 +36,11 @@ library.add(
     faInbox,
     faFileAlt,
     faFolder,
-    faStar
+    faStar,
+    faReply,
+    faEllipsisH,
+    faPaperPlane,
+    faShare
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
@@ -45,6 +53,6 @@ const router = new VueRouter({routes})
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
-  router,
+    render: h => h(App),
+    router,
 }).$mount('#app')
