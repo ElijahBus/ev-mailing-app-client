@@ -1,0 +1,14 @@
+GET http://localhost:3000/api/mail
+Accept: application/json
+
+###
+POST http://localhost:3000/api/mail
+Content-Type: application/json
+
+{
+  "title": "Receive my warm salutations",
+  "email": "something@domain.com",
+  "content": "i would loike to send you my special salutations, and i hope you all receive them with thanks"
+}
+
+###

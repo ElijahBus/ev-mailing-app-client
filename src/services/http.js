@@ -1,5 +1,7 @@
 import Axios from "axios";
 
-export default Axios.create({
-    baseURL: 'http://localhost:300/api'
+const http = Axios.create({
+    baseURL: 'http://localhost:3000/api'
 })
+
+export default http
